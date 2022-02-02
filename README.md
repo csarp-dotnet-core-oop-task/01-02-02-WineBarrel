@@ -4,10 +4,10 @@ A feladat boros pince hordóival kapcsolatos. Készítsen egy boros hordó (wine
 Boroshordó létrehozásakor a felhasználó negatív számot is megadhat a mennyiség paraméternek. Ilyenkor a boroshordó legyen üres!
 
 
- A boros hordó osztályhoz biztosítson egy metódust, amely segítségével a gazda adott mennyiségű bort vehet ki a hordóból (take out wine). A gazda csak annyi bort vehet ki a hordóból amennyi abban benne van, vagy annál kevesebbet!
+A boros hordó osztályhoz biztosítson egy metódust, amely segítségével a gazda adott mennyiségű bort vehet ki a hordóból (take out wine). A gazda csak annyi bort vehet ki a hordóból amennyi abban benne van, vagy annál kevesebbet! Ha nem lehetséges adott mennyiségű bor kivétele, akkor semennyi nem kerül kivételre!
  
  
-A hordóban lévő bor mennyiségének ellenőrzésére írnia kell egy metódus, amely kiírja a játékos nevét és koordinátáját. A metódus neve legyen „ToConsole”.
+A hordóban lévő bor mennyiségének ellenőrzésére írnia kell egy metódus, amely kiírja a bor megnevezését és mennyiségét. A metódus neve legyen „ToConsole”.
 Pl. ha a bor neve neve „Egri leányka”, és a és a hordóban lévő bor mennyisége 100 liter, akkor a kiírást egy új sorral záruljon és a következő formátumba jelenjen meg:
 Egri leányka mennyisége a hordóban 100 liter.
 
