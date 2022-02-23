@@ -1,6 +1,8 @@
 # 01-02-02 feladat
 ## Bor Projekt 
-A feladat boros pince hordóival kapcsolatos. Készítsen egy boros hordó (wine barrel) osztályt amelyben eltárolható a bor neve (szöveg) és a bor mennyisége a hordóban (egész szám). A boroshordó a benne lévő bor megnevezésének és a benne lévő bor mennyiségének a megadásával jöhet létre!
+A feladat boros pince hordóival kapcsolatos. Készítsen egy boros hordó (wine barrel) osztályt amelyben eltárolható a bor neve (szöveg) és a bor mennyisége a hordóban (egész szám). A boroshordó a benne lévő bor megnevezésének és a benne lévő bor mennyiségének a megadásával jöhet létre! 
+
+
 Boroshordó létrehozásakor a felhasználó negatív számot is megadhat a mennyiség paraméternek. Ilyenkor a boroshordó legyen üres!
 
 
