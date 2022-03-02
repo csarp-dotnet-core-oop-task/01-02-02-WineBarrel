@@ -67,7 +67,7 @@ namespace Test.Tests
             try
             {
                 WineBarrel wb = new WineBarrel("Egri leányka", 100);
-                wb.takeOutWine(80);
+                wb.TakeOutWine(80);
                 expected = "Egri leányka mennyisége a hordóban 20 liter.\r\n";
 
                 StringWriter sw = new StringWriter();
@@ -91,7 +91,7 @@ namespace Test.Tests
             try
             {
                 WineBarrel wb = new WineBarrel("Egri leányka", 100);
-                wb.takeOutWine(180);
+                wb.TakeOutWine(180);
                 expected = "Egri leányka mennyisége a hordóban 100 liter.\r\n";
 
                 StringWriter sw = new StringWriter();
@@ -115,8 +115,8 @@ namespace Test.Tests
             try
             {
                 WineBarrel wb = new WineBarrel("Egri leányka", 100);
-                wb.takeOutWine(20);
-                wb.takeOutWine(80);
+                wb.TakeOutWine(20);
+                wb.TakeOutWine(80);
                 expected = "A hordó üres!\r\n";
 
                 StringWriter sw = new StringWriter();
